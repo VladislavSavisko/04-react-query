@@ -1,3 +1,5 @@
+/// <reference types="vite/client" />
+
 declare module "modern-normalize";
 declare module "*.module.css" {
   const classes: { [key: string]: string };
@@ -12,4 +14,3 @@ interface ImportMeta {
   readonly env: ImportMetaEnv;
 }
 
-/// <reference types="vite/client" />
